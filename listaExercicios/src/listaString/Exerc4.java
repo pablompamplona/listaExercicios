@@ -55,8 +55,10 @@ public class Exerc4 {
 		if (termina) {
 			System.out.println("A palavra " + palavraInformada + " realmente termina com " + confereFinal);
 		} else {
-			System.out.println("O termo informado nao confere com o inicio da palavra " + palavraInformada);
+			System.out.println("O termo informado nao confere com o final da palavra " + palavraInformada);
 		}
-	}	
+		
+	}
+	
 
 }
