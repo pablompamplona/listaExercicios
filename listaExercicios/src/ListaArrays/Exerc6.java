@@ -19,7 +19,7 @@ public class Exerc6 {
 		for (i = 0; i < multiplicadores.length; i++) {
 			System.out.println("Insira um numero de 1 a 9: ");
 			validaMultiplo = teclado.nextInt();
-			if ((validaMultiplo <= 0 ) && (validaMultiplo >= 10)) {
+			if (validaMultiplo != 1 && validaMultiplo != 2 && validaMultiplo != 3 && validaMultiplo != 4 && validaMultiplo != 5 && validaMultiplo != 6 && validaMultiplo != 7 && validaMultiplo != 8 && validaMultiplo != 9) {
 				do {
 					System.out.println("Insira um numero de 1 a 9: ");
 					validaMultiplo = teclado.nextInt();

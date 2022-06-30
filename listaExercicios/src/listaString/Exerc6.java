@@ -18,6 +18,7 @@ public class Exerc6 {
 		String palavraNova = "";
 		
 		
+		
 		System.out.println("Digite uma frase: ");
 		fraseInformada = input.nextLine();
 		System.out.println("Informe uma palavra da frase para ser trocada: ");
@@ -25,6 +26,9 @@ public class Exerc6 {
 		System.out.println("Qual a nova palavra voce deseja inserir no local?: ");
 		palavraNova = input.nextLine();
 		
+		String novaFrase = fraseInformada.replaceAll(palavraAtual, palavraNova);
+		System.out.println("Frase informada: " + fraseInformada);
+		System.out.println("Nova Frase: " + novaFrase);
 
 	}
 
