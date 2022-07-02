@@ -5,10 +5,19 @@
 
 package listaString;
 
+import java.util.Scanner;
+
 public class Exerc7 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
+		Scanner input = new Scanner(System.in);
+		
+		String numeroInformado = "";
+		
+		System.out.println("Informe um numero de sua escolha: ");
+		
+		
 
 	}
 
