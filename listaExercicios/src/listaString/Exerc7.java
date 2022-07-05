@@ -14,8 +14,16 @@ public class Exerc7 {
 		Scanner input = new Scanner(System.in);
 		
 		String numeroInformado = "";
+		String[] numerosExtenso = {"ZERO", "UM", "DOIS", "TRES", "QUATRO", "CINCO", "SEIS", "SETE", "OITO", "NOVE"};
 		
 		System.out.println("Informe um numero de sua escolha: ");
+		numeroInformado = input.nextLine();
+		for (int i = 0; i < numeroInformado.length(); i++) {
+			char c = numeroInformado.charAt(i);
+			String ind = String.valueOf(c);
+			int indNumExtenso = Integer.parseInt(ind);
+			System.out.print(numerosExtenso[indNumExtenso] + " ");
+		}
 		
 		
 
